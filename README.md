@@ -122,7 +122,7 @@ Common flags
 Example:
 
 bash
-Copy code
+
 pycode_similar -l 4 -p 0.5 pycode_similar/tests/original_version.py pycode_similar/pycode_similar.py
 Usage (Python Library)
 python
@@ -139,7 +139,7 @@ print(results)
 To use TreeDiff:
 
 python
-Copy code
+
 import pycode_similar
 results = pycode_similar.detect(
     [ref, cand],
@@ -149,7 +149,7 @@ TreeDiff requires the zss package.
 
 Running Tests
 bash
-Copy code
+
 python pycode_similar/tests/test_cases.py
 Dependencies
 Core: No third-party dependencies for UnifiedDiff
@@ -169,12 +169,4 @@ MIT License
 yaml
 Copy code
 
----
 
-## If you want me to *literally* read every `.py` file in your RAR
-Upload the project as **`.zip`** (or extracted folder). Then I can open and read each script and tailor the README to *your exact* implementation (including dependencies from `requirements.txt`, entrypoints, CLI wrappers, etc.).
-
-If you want, tell me which one you’ll upload:
-- `pycode_similar-master.zip` ✅
-- extracted folder ✅
-::contentReference[oaicite:6]{index=6}
